@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - LinkedIn CRM Saver</title>
+
+    <style>
+        body{
+            max-width:900px;
+            margin:40px auto;
+            padding:20px;
+            font-family:Arial,Helvetica,sans-serif;
+            line-height:1.7;
+            color:#333;
+            background:#fafafa;
+        }
+        h1,h2{
+            color:#0A66C2;
+        }
+        .box{
+            background:#fff;
+            padding:25px;
+            border-radius:10px;
+            box-shadow:0 2px 8px rgba(0,0,0,.08);
+        }
+        code{
+            background:#eee;
+            padding:2px 6px;
+            border-radius:4px;
+        }
+        footer{
+            margin-top:40px;
+            font-size:14px;
+            color:#666;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+
+<h1>Privacy Policy</h1>
+
+<p><strong>Effective Date:</strong> June 28, 2026</p>
+
+<p>
+LinkedIn CRM Saver ("the Extension") is designed to help users organize publicly
+visible information from LinkedIn pages into a structured contact list.
+We respect your privacy and are committed to protecting your information.
+</p>
+
+<h2>Information Processed</h2>
+
+<p>
+The Extension only processes information from the LinkedIn page that the user
+has intentionally chosen to extract.
+</p>
+
+<p>This information may include publicly visible:</p>
+
+<ul>
+<li>Name</li>
+<li>LinkedIn profile URL</li>
+<li>Job title</li>
+<li>Company</li>
+<li>Email address</li>
+<li>Phone number</li>
+<li>Location</li>
+<li>Application links</li>
+<li>Public post content</li>
+</ul>
+
+<h2>How Information Is Used</h2>
+
+<p>
+The extracted information is used solely to provide the Extension's functionality,
+including:
+</p>
+
+<ul>
+<li>Creating a structured contact list</li>
+<li>Searching and filtering contacts</li>
+<li>Exporting contacts to CSV</li>
+<li>Generating summaries using an AI provider selected by the user</li>
+</ul>
+
+<h2>Local Storage</h2>
+
+<p>
+Extracted contacts, user preferences and settings are stored locally using
+<code>chrome.storage.local</code>.
+</p>
+
+<p>
+The developer does not receive, store or access this information.
+</p>
+
+<h2>AI Services</h2>
+
+<p>
+If the user configures a Groq API key, the Extension sends only the page content
+required for extraction to the Groq API using the user's own API credentials.
+</p>
+
+<p>
+If the user enables Ollama, requests are sent only to the user's local Ollama
+instance running on their own computer (localhost).
+</p>
+
+<p>
+The Extension does not provide its own remote AI service.
+</p>
+
+<h2>Data Sharing</h2>
+
+<p>
+The Extension does not:
+</p>
+
+<ul>
+<li>Sell user data</li>
+<li>Rent user data</li>
+<li>Share user data with advertisers</li>
+<li>Use analytics or tracking software</li>
+<li>Collect browsing history</li>
+</ul>
+
+<h2>Permissions</h2>
+
+<p>
+The Extension requests only the permissions necessary to perform its intended
+function:
+</p>
+
+<ul>
+<li><strong>storage</strong> — Save contacts and user settings locally.</li>
+<li><strong>activeTab</strong> — Access the current LinkedIn page after user action.</li>
+<li><strong>scripting</strong> — Run the extraction script on the selected page.</li>
+<li><strong>tabs</strong> — Communicate with the active browser tab.</li>
+<li><strong>https://www.linkedin.com/*</strong> — Read LinkedIn pages selected by the user.</li>
+</ul>
+
+<h2>User Control</h2>
+
+<p>
+Users can delete all locally stored information at any time by clearing the
+Extension's data or uninstalling the Extension.
+</p>
+
+<h2>Children's Privacy</h2>
+
+<p>
+The Extension is not intended for children under the age of 13.
+</p>
+
+<h2>Changes to this Privacy Policy</h2>
+
+<p>
+This Privacy Policy may be updated from time to time. Any changes will be
+published on this page with an updated effective date.
+</p>
+
+<h2>Contact</h2>
+
+<p>
+For questions regarding this Privacy Policy, please contact the developer through
+the Chrome Web Store support page or the GitHub repository associated with this
+Extension.
+</p>
+
+<footer>
+© 2026 LinkedIn CRM Saver
+</footer>
+
+</div>
+
+</body>
+</html>
